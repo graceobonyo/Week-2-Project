@@ -40,7 +40,7 @@ def show_leaderboard():
         print("No leaderboard found yet.")
 
 def play_game():
-    print("\n🎮 Welcome to Guess the Number Game 🎮")
+    print("\n Welcome to Guess the Number Game.Have fun ")
     username = input("Enter your username: ")
 
     difficulty, max_attempts = choose_difficulty()
