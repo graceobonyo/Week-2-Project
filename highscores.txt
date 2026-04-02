@@ -1,1 +1,3 @@
 G,Easy,0
+h,Easy,2
+r,Easy,0

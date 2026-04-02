@@ -25,7 +25,7 @@ def save_highscore(username, attempts_left, difficulty):
         file.write(f"{username},{difficulty},{attempts_left}\n")
 
 def show_leaderboard():
-    print("\n🏆 Leaderboard 🏆")
+    print("\n Leaderboard ")
     try:
         with open(HIGHSCORE_FILE, "r") as file:
             scores = file.readlines()
@@ -63,28 +63,27 @@ def play_game():
         remaining = max_attempts - attempts
 
         if guess == secret_number:
-            print(f"\n🎉 Correct! You guessed the number in {attempts} tries.")
+            print(f"\n Correct! You guessed the number in {attempts} tries.")
             save_highscore(username, remaining, difficulty)
             break
         elif guess > secret_number:
-            print("❌ Too High!")
+            print("Too High!")
         else:
-            print("❌ Too Low!")
+            print("Too Low!")
 
         if attempts == 3:
             # Hint after 3 wrong attempts
             if secret_number % 2 == 0:
-                print("💡 Hint: The number is even.")
+                print("Hint: The number is even.")
             else:
-                print("💡 Hint: The number is odd.")
+                print("Hint: The number is odd.")
 
         print(f"Attempts remaining: {remaining}\n")
 
     else:
-        print(f"\n😢 Game Over! The number was {secret_number}.")
+        print(f"\n Game Over! The number was {secret_number}.")
 
     show_leaderboard()
 
 if __name__ == "__main__":
     play_game()
-
