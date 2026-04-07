@@ -3,10 +3,9 @@ Guess the number game
 This project is a python based number guessing game allowing users to randomly guess a number between a specific range 1-100 within a limited number of attempts at each different levels .The game includes different levels of difficulty ,a hint system to give you the headsup on the type of answer and a leaderboard for storing player scores in a text file in the order of playing.
 
 # project 
-
+https://github.com/graceobonyo/Guess-the-number/blob/main/guess_the_number.py
 https://github.com/graceobonyo/Guess-the-number/blob/main/LICENSE
-
-
+https://github.com/graceobonyo/Guess-the-number/blob/main/README.md
 
 
 ## core features
