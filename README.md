@@ -94,3 +94,5 @@ Contributions are what make the open-source community an excellent place to lear
 
 This project is open-source and available under the [MIT License](https://github.com/graceobonyo/Guess-the-number/blob/main/LICENSE)
 
+
+Grace Obonyo :https://github.com/graceobonyo
