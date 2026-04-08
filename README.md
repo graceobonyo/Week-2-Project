@@ -37,13 +37,18 @@ cd guess-the-number
     python main.py
     ```
 
-## How to play 
+## How to play
+
 **Enter Username:** Provide your name for the leaderboard.
+
 **Select Difficulty:**
+      
       * **Easy:** 10 attempts
       * **Medium:** 7 attempts
       * **Hard:** 5 attempts
+
 **Guess:** Input your numbers. The system will give you feedback stating whether  your guess is "Too High" or "Too Low."
+
 **Win/Loss:** If you guess the secret number correctly, your remaining attempts are saved as your score. If you run out of tries, the secret number is revealed.
 
 ## Contributing
@@ -53,19 +58,24 @@ Contributions are what make the open-source community an excellent place to lear
 ### How to Contribute
 
 **Fork the Project**
+
 **Create your Feature Branch**
     ```bash
     git checkout -b feature/AmazingFeature
     ```
+
 **Commit your Changes**
     ```bash
     git commit -m 'Add some AmazingFeature'
     ```
+
 **Push to the Branch**
     ```bash
     git push origin feature/AmazingFeature
     ```
+
 **Open a Pull Request**
+
 
 ### Areas for Improvement
 
